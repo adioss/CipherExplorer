@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CipherConstant {
-    static final List<CipherDescription> STANDARD_JRE7_CIPHER_LIST = Arrays.asList("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,true",
+    public static final List<CipherDescription> STANDARD_JRE7_CIPHER_LIST = Arrays.asList("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,true",
             "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,true",
             "TLS_RSA_WITH_AES_256_CBC_SHA256,true",
             "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384,true",
